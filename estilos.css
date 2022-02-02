@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+
+
+/* COLOR DEL BODY */
+body{
+    background-color: rgb(126, 245, 146);
+}
+
+/* AJUSTES FLEX */
+.d-flex{
+    align-content: center;
+}
+
+/* AJUSTES CARD */
+.card{
+    padding: 0.5rem;
+   
+}
+
+/* AJUSTES DEL MENU */
+
+#ul{
+    justify-content: center;
+    font-size: 0rem;
+    background-color: rgb(14, 0, 27);
+    
+}
+
+/* PERSONALIZACION DEL TEXTO INDEX */
+
+#textoIndex{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* PERSONALIZACION DEL H1 INDEX */
+#titulo{
+    Font-family: 'Bebas Neue', cursive;
+    font-size: 2em !important;
+    color: beige;
+    border: 1px solid black;
+    padding: .2em;
+    background-color: blue;
+
+    
+}
+
+/* CONTENEDOR DE PRODUCTOS */
+
+.conteinerProducts {
+    margin: 1rem;
+    padding: 1rem;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: fit-content;
+}
+
